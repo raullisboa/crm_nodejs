@@ -23,14 +23,15 @@ Para rodar o projeto em uma nova máquina:
 
 ### Passo 1: Pré-requisitos
 
-    1. Node.js: Certifique-se de ter o Node.js instalado.
+1. Node.js: Certifique-se de ter o Node.js instalado.
 
-    2. Git (opcional): Caso deseje clonar o projeto diretamente do repositório.
+2. Git (opcional): Caso deseje clonar o projeto diretamente do repositório.
 
 ### Passo 2: Clonar o Repositório ou Criar uma Pasta do Projeto
 
 Caso o projeto esteja hospedado em uma plataforma como GitHub ou GitLab, clone-o com o comando:
     `git clone https://github.com/seu-usuario/seu-repositorio.git`
+
     `cd seu-repositorio`
 
 ### Passo 3: Inicializar o Projeto Node e Configurar o package.json
