@@ -15,11 +15,11 @@ Para rodar o projeto em uma nova máquina:
 2. Instale as dependências: `npm install`
 3. Inicie o servidor:
 
-  Inicia o servidor em modo de desenvolvimento
-    `npm run dev`
+    Inicia o servidor em modo de desenvolvimento
+      `npm run dev`
 
-  Inicia o servidor em modo de produção
-    `npm start`
+    Inicia o servidor em modo de produção
+      `npm start`
 
 ### Passo 1: Pré-requisitos
 
