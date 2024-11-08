@@ -19,12 +19,13 @@ Para rodar o projeto em uma nova máquina:
 
     ```bash
     npm run dev
-    
+    ```
 
     Inicia o servidor em modo de produção
 
     ```bash
     npm start
+    ```
 
 ### Passo 1: Pré-requisitos
 
@@ -36,29 +37,39 @@ Para rodar o projeto em uma nova máquina:
 
 Caso o projeto esteja hospedado em uma plataforma como GitHub ou GitLab, clone-o com o comando:
 
-  `git clone https://github.com/seu-usuario/seu-repositorio.git`
+  ```bash
+  git clone https://github.com/seu-usuario/seu-repositorio.git`
 
-  `cd seu-repositorio`
+  cd seu-repositorio
+  ```
 
 ### Passo 3: Inicializar o Projeto Node e Configurar o package.json
 
 Inicie o projeto:
-    `npm init -y`
+
+  ```bash
+  npm init -y
+  ```
 
 Isso criará um arquivo package.json básico.
 
 Instale as dependências:
 
+  ```bash
     npm install express sqlite3
+  ```
 
 Instale o Nodemon (opcional, apenas para desenvolvimento):
 
-    npm install nodemon --save-dev
+  ```bash
+  npm install nodemon --save-dev
+  ```
 
 Configure o script dev no package.json (opcional):
 
 Abra o package.json e adicione o seguinte script de inicialização para facilitar o uso do Nodemon:
 
+  ```bash
     {
       "name": "meu-crud-node",
       "version": "1.0.0",
@@ -76,11 +87,21 @@ Abra o package.json e adicione o seguinte script de inicialização para facilit
         "nodemon": "^2.0.22"
       }
     }
+  ```
 
 Agora, você pode rodar o servidor:
 
-Modo de desenvolvimento: `npm run dev`
-Modo de produção: `npm start`
+Modo de desenvolvimento:
+
+  ```bash
+  npm run dev
+  ```
+
+Modo de produção:
+
+  ```bash
+  npm start`
+  ```
 
 ### Passo 4: Criar os Arquivos de Código
 
@@ -97,12 +118,18 @@ No mesmo diretório, crie o arquivo index.js para configurar o servidor Express 
 Para rodar o servidor:
 
 Modo de desenvolvimento (com reinício automático):
-`npm run dev`
+
+  ```bash
+  npm run dev
+  ```
 
 Modo de produção:
-`npm start`
 
-O servidor estará disponível em <http://localhost:3000>.
+  ```bash
+  npm start
+  ```
+
+O servidor estará disponível em `<http://localhost:3000>`.
 
 ### Passo 6: Testar as Rotas CRUD
 
