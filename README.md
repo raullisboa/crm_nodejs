@@ -14,6 +14,7 @@ Para rodar o projeto em uma nova máquina:
 1. Clone o projeto com `git clone` ou copie a pasta para o novo sistema.
 2. Instale as dependências: `npm install`
 3. Inicie o servidor:
+
   Inicia o servidor em modo de desenvolvimento
     `npm run dev`
 
