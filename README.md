@@ -19,7 +19,7 @@ Para rodar o projeto em uma nova máquina:
 
     ```bash
     npm run dev
-    ```
+    
 
     Inicia o servidor em modo de produção
 
