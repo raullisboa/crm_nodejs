@@ -16,7 +16,7 @@ Para rodar o projeto em uma nova máquina:
 3. Inicie o servidor:
 
     Inicia o servidor em modo de desenvolvimento
-      `npm run dev`
+      `bash npm run dev`
 
     Inicia o servidor em modo de produção
       `npm start`
