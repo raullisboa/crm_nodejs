@@ -11,7 +11,7 @@ O objetivo é fornecer uma estrutura simples para iniciar um servidor com funcio
 
 Para rodar o projeto em uma nova máquina:
 
-1. Clone o projeto com `git clone` ou copie a pasta para o novo sistema.
+1. Clone o projeto com ```git clone``` ou copie a pasta para o novo sistema.
 2. Instale as dependências: `npm install`
 3. Inicie o servidor:
 
