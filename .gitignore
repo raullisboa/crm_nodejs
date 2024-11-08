@@ -1,0 +1,25 @@
+# Ignora node_modules (diretório de dependências)
+node_modules/
+
+# Ignora arquivos de log
+*.log
+
+# Ignora a pasta do banco de dados SQLite (se estiver no projeto)
+*.db
+
+# Ignora a pasta de ambiente (configurações específicas de IDE)
+.vscode/
+
+# Ignora o arquivo de configuração do ambiente do Node.js
+.env
+
+# Ignora arquivos de dependências instaladas (npm ou yarn)
+package-lock.json
+yarn.lock
+
+# Ignora diretórios de testes (caso tenha)
+/test/
+
+# Ignora arquivos temporários de sistemas operacionais
+.DS_Store
+Thumbs.db

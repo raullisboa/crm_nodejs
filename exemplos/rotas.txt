@@ -1,0 +1,13 @@
+Criar Usuário (POST): http://localhost:3000/usuarios
+
+Corpo JSON: { "name": "Raul", "password": "12345" }
+Listar Usuários (GET): http://localhost:3000/usuarios
+
+Buscar Usuário por ID (GET): http://localhost:3000/usuarios/:id
+
+Atualizar Usuário (PUT): http://localhost:3000/usuarios/:id
+
+Corpo JSON: { "name": "Novo Nome", "password": "novaSenha" }
+Excluir Usuário (DELETE): http://localhost:3000/usuarios/:id
+
+Essas rotas cobrem todas as operações CRUD para o recurso users.
