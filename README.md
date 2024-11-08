@@ -1,55 +1,54 @@
 # Projeto CRUD com Node.js, Express e SQLite
 
-Este é um projeto básico de CRUD (Create, Read, Update, Delete) utilizando Node.js com o framework Express e o banco de dados SQLite. O objetivo é fornecer uma estrutura simples para iniciar um servidor com funcionalidades de API para manipulação de dados.
+Este é um projeto básico de CRUD (Create, Read, Update, Delete) utilizando Node.js com o framework Express e o banco de dados SQLite.
+O objetivo é fornecer uma estrutura simples para iniciar um servidor com funcionalidades de API para manipulação de dados.
 
 ---
 
 ## 📋 Passo a Passo para Configuração
 
-### Passo 0: Configurar para Outra Máquina
+### Passo 0: Configurar em Outra Máquina
 
 Para rodar o projeto em uma nova máquina:
 
 1. Clone o projeto com `git clone` ou copie a pasta para o novo sistema.
 2. Instale as dependências: `npm install`
 3. Inicie o servidor:
+  Inicia o servidor em modo de desenvolvimento
+    `npm run dev`
 
-    Inicia o servidor em modo de desenvolvimento
-        ```
-        npm run dev
-        ```
-    
-    Inicia o servidor em modo de produção
-        ```
-        npm start
-        ```
-   
+  Inicia o servidor em modo de produção
+    `npm start`
+
 ### Passo 1: Pré-requisitos
+
 Node.js: Certifique-se de ter o Node.js instalado.
 
 Git (opcional): Caso deseje clonar o projeto diretamente do repositório.
 
 ### Passo 2: Clonar o Repositório ou Criar uma Pasta do Projeto
+
 Caso o projeto esteja hospedado em uma plataforma como GitHub ou GitLab, clone-o com o comando:
 
     git clone https://github.com/seu-usuario/seu-repositorio.git
-    
-    cd seu-repositorio
-### Passo 3: Inicializar o Projeto Node e Configurar o package.json
-Inicie o projeto:
 
-    npm init -y
-    
+    cd seu-repositorio
+
+### Passo 3: Inicializar o Projeto Node e Configurar o package.json
+
+Inicie o projeto:
+    `npm init -y`
+
 Isso criará um arquivo package.json básico.
 
 Instale as dependências:
 
     npm install express sqlite3
-    
+
 Instale o Nodemon (opcional, apenas para desenvolvimento):
 
     npm install nodemon --save-dev
-    
+
 Configure o script dev no package.json (opcional):
 
 Abra o package.json e adicione o seguinte script de inicialização para facilitar o uso do Nodemon:
@@ -71,12 +70,14 @@ Abra o package.json e adicione o seguinte script de inicialização para facilit
         "nodemon": "^2.0.22"
       }
     }
+
 Agora, você pode rodar o servidor:
 
 Modo de desenvolvimento: `npm run dev`
 Modo de produção: `npm start`
 
 ### Passo 4: Criar os Arquivos de Código
+
 Crie o arquivo database.js:
 
 No diretório do projeto, crie o arquivo database.js e adicione a configuração de conexão com o banco de dados e as funções CRUD.
@@ -86,17 +87,19 @@ Crie o arquivo index.js:
 No mesmo diretório, crie o arquivo index.js para configurar o servidor Express e definir as rotas RESTful do CRUD.
 
 ### Passo 5: Iniciar o Servidor
+
 Para rodar o servidor:
 
 Modo de desenvolvimento (com reinício automático):
-    ```npm run dev```
+`npm run dev`
 
 Modo de produção:
-    ```npm start```
-    
-O servidor estará disponível em http://localhost:3000.
+`npm start`
+
+O servidor estará disponível em <http://localhost:3000>.
 
 ### Passo 6: Testar as Rotas CRUD
+
 Use uma ferramenta como Postman para testar as rotas HTTP (POST, GET, PUT, DELETE) do servidor.
 Alternativamente, você pode usar cURL no terminal para fazer requisições HTTP.
 
